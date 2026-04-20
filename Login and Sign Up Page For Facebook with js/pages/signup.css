@@ -1,0 +1,405 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 250px;
+    margin-top: -70px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    
+}
+
+.signupbox {
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 470px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 , p{
+    padding: 4px;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+.firstname{
+    height: 39px;
+    width: 215px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+}
+
+.surname{
+   height: 39px;
+   width: 215px;
+   border-radius: 5px;
+   border: 1.5px solid rgb(168, 168, 168);
+   padding: 10px;
+}
+
+.dob{
+    display: flex;
+    font-size: small;
+    color: rgb(95, 95, 95);
+}
+
+.dobinput{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    flex-direction: row-reverse;
+}
+
+#year{
+    width: 140px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    cursor: pointer;
+}
+
+#month{
+    width: 140px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    cursor: pointer;
+}
+
+#day{
+    width: 140px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.genderp {
+    display: flex;
+    font-size: small;
+    color: rgb(95, 95, 95);
+}
+
+.genderinput {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.female{
+    width: 145px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.male{
+    width: 130px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.custom{
+    width: 145px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.email{
+    height: 39px;
+    width: 445px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.password{
+    height: 39px;
+    width: 445px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.para{
+    text-align: start;
+    font-size: x-small;
+    color: rgb(46, 46, 46);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#btn2{
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 190px;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    font-size: larger;
+    color: white;
+    background-color: rgb(21, 173, 21);
+    border: none;
+
+}
+
+#logininput{
+    color: blue;
+}
+
+.login{
+    margin: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .signupbox {
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 395px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.firstname{
+    height: 35px;
+    width: 175px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+}
+
+.surname{
+   height: 35px;
+   width: 175px;
+   border-radius: 5px;
+   border: 1.5px solid rgb(168, 168, 168);
+   padding: 10px;
+}
+.dobinput{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-direction: row-reverse;
+}
+
+#year{
+    width: 110px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+}
+
+#month{
+    width: 110px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+}
+
+#day{
+    width: 110px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+}
+
+.female{
+    width: 120px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.male{
+    width: 110px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom{
+    width: 120px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    height: 35px;
+    width: 370px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.password{
+    height: 35px;
+    width: 370px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+}
+@media only screen and (max-width: 410px) {
+    .signupbox {
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.firstname{
+    height: 30px;
+    width: 125px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    
+}
+
+.surname{
+   height: 30px;
+    width: 125px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+}
+#year{
+    width: 85px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    cursor: pointer;
+}
+
+#month{
+    width: 85px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    cursor: pointer;
+}
+
+#day{
+    width: 85px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    cursor: pointer;
+}
+.female{
+    width: 90px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.male{
+    width: 85px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom{
+    width: 90px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    height: 30px;
+    width: 280px;
+    border-radius : 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.password{
+    height: 30px;
+    width: 280px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(168, 168, 168);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
